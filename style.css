@@ -1,0 +1,33 @@
+/* Reset Styles */
+body, li, img, a, .viewport{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+
+.search-button, .feeling-lucky {
+	background-color: rgb(242, 242, 242);
+	padding: 7px; 
+	font-size: 11px; 
+	font-family: calibri;
+	border-width: 0px; 
+
+
+.user-search {
+	padding: 20px;  
+	font-family: calibri;
+	/* border-width: 0px;  */
+	/* font-weight: bold; */
+}
+
+.search-bar {
+	padding: 20px;
+	margin: 20px;
+	border-radius: 30px;
+	border-weight: 10px;
+}
+
+
