@@ -1,12 +1,28 @@
-/* Reset Styles */
-body, li, img, a, .viewport{
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: arial, sans-serif;
-  font-size: 13px;
+
+
+.header, .footer, a {
+	color: grey;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
 }
 
+.header {
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.top-left-nav {
+	top: 15px;
+	left: 15px;
+}
+
+li {
+	list-style: none;
+}
 
 .search-button, .feeling-lucky {
 	background-color: rgb(242, 242, 242);
@@ -14,13 +30,11 @@ body, li, img, a, .viewport{
 	font-size: 11px; 
 	font-family: calibri;
 	border-width: 0px; 
-
+}
 
 .user-search {
 	padding: 20px;  
 	font-family: calibri;
-	/* border-width: 0px;  */
-	/* font-weight: bold; */
 }
 
 .search-bar {
@@ -29,5 +43,15 @@ body, li, img, a, .viewport{
 	border-radius: 30px;
 	border-weight: 10px;
 }
+
+.nav-bar{
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+}
+
+
 
 
