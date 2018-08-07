@@ -1,57 +1,90 @@
-
-
-.header, .footer, a {
-	color: grey;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 13px;
+.viewport {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
 }
 
-.header {
-  height: 30px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-.top-left-nav {
-	top: 15px;
-	left: 15px;
+a {
+	padding-left:5px;
+	text-decoration:none;
+	color:rgba(0, 0, 0, 0.54);;
+	margin:2px;
 }
 
 li {
-	list-style: none;
+	display: inline;
 }
 
-.search-button, .feeling-lucky {
-	background-color: rgb(242, 242, 242);
-	padding: 7px; 
-	font-size: 11px; 
-	font-family: calibri;
-	border-width: 0px; 
+
+
+
+
+/* Next 3 selectors handled the header in it's entirety */
+.header {
+	display:flex;
+	font-family:arial, sans-serif;
+	font-size:13px;
+	width:100%;
+	position:absolute;
+	align-items:center;
+	padding: 10px;
+	}
+
+.top-right-nav {
+	display:flex;
+	align-items: center;
+}
+
+.top-left-nav {
+	position: relative;
+	/* left: 20px; */
+	/* top: 10px; */
+	flex: 3;
+	
+}
+
+/********************************************************/
+
+
+
+
+
+/* Next 4 selectors handles the center of the screen (logo, search bar, Google Search btn, FL btn) */
+.center {
+	text-align: center;
+	padding-top: 151px;
+	}
+
+.user-main {
+	text-align:center;
+	padding-top:33px;
 }
 
 .user-search {
-	padding: 20px;  
-	font-family: calibri;
+	text-align:center;
+	padding-top:50px;
+	}
+
+#search-input {
+	text-align:center;
+	padding-top:19px;
+	size: 50px;
 }
-
-.search-bar {
-	padding: 20px;
-	margin: 20px;
-	border-radius: 30px;
-	border-weight: 10px;
-}
-
-.nav-bar{
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  left: 0px;
-  right: 0px;
-}
+/********************************************************/
 
 
-
-
+	
+/* footer { */
+	/* background-color:#f2f2f2; */
+	/* font-family:arial,sans-serif; */
+	/* color:rgba(0, 0, 0, 0.54); */
+	/* position:fixed; */
+	/* width:100%; */
+	/* margin-left:-8px; */
+	/* display:flex; */
+	/* flex-direction:column; */
+	/* bottom:0; */
+	
+	/* } */
